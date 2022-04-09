@@ -1,5 +1,5 @@
 # Stock-Market-Visualizer
-To run the file - run.bat
+To run the file - run.bat | 
 Python Libraries used - 
 streamlit
 pandas
