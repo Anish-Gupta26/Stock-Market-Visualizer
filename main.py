@@ -10,7 +10,7 @@ import requests
 
 def data(setup,month,week):
     #convert json to dataframe
-    df = pd.read_json('https://raw.githubusercontent.com/hetavv/ohlc-dashboard/main/Stock%20List.json')
+    df = pd.read_json('https://raw.githubusercontent.com/Anish-Gupta26/Stock-Market-Visualizer/master/Stock%20List.json')
     #taking only the important columns from the dataframe
     new_df = df[['close','high','low','open','symbol','date']]
     #indexing it by date
