@@ -3,7 +3,7 @@ pip install pandas
 pip install json 
 pip install finplot 
 pip install numpy 
-pip install matplotlib.pyplot
+pip install matplotlib
 pip install plotly.graph_objects 
 pip install plotly.express 
 pip install requests
