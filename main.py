@@ -116,8 +116,6 @@ elif(graph_modalities[graph_chosen]==3):
                  grouped_companies[companies[company_name]][1]['low'], grouped_companies[companies[company_name]][1]['high'], grouped_companies[companies[company_name]][1]['close']])
 	st.plotly_chart(fig)
 	 
-
-
 elif(graph_modalities[graph_chosen]==4):
 	fig = px.box(grouped_companies[companies[company_name]][1],x=grouped_companies[companies[company_name]][1].index, y=[grouped_companies[companies[company_name]][1]['open'],
                  grouped_companies[companies[company_name]][1]['low'], grouped_companies[companies[company_name]][1]['high'], grouped_companies[companies[company_name]][1]['close']])
