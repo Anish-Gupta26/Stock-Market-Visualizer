@@ -9,4 +9,4 @@ matplotlib
 plotly 
 requests
 
-![](img1.png)
+![](images/ss1.png)
